@@ -45,9 +45,25 @@ function generaNumeroRandom(min, max) {
 
 }
 
+
+
 for (let i = 0; i < 10; i++) {
 
     const numero = generaNumeroRandom(1, 5);
+
+    console.log(numero);
+
+}
+
+
+
+// ...10k LOC
+
+
+
+for (let i = 0; i < 10; i++) {
+
+    const numero = generaNumeroRandom(90, 100);
 
     console.log(numero);
 
